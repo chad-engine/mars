@@ -1,0 +1,144 @@
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+	<LinearLayout
+		android:id="@+id/linear26"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:padding="8dp"
+		android:background="#263238"
+		android:gravity="center_horizontal|center_vertical"
+		android:orientation="vertical"
+		android:weightSum="1"
+		android:layout_gravity="center_horizontal|center_vertical"
+		android:layout_weight="1">
+		<LinearLayout
+			android:id="@+id/card1"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:padding="10dp"
+			android:background="#212121"
+			android:orientation="vertical"
+			android:layout_gravity="center_horizontal|center_vertical">
+			<LinearLayout
+				android:id="@+id/linear29"
+				android:layout_width="match_parent"
+				android:layout_height="165dp"
+				android:layout_margin="2dp"
+				android:padding="8dp"
+				android:background="@drawable/sketch1633354727457"
+				android:gravity="center_horizontal|center_vertical"
+				android:orientation="vertical"
+				android:layout_gravity="center_horizontal|center_vertical">
+				<TextView
+					android:id="@+id/textview2"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:text="DİLLER "
+					android:textSize="40sp"
+					android:textStyle="bold|italic"
+					android:textColor="#FFFFFF" />
+				<TextView
+					android:id="@+id/textview6"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:text="Marsı Hangi dilde kullancan za"
+					android:textSize="12sp"
+					android:textStyle="bold"
+					android:textColor="#FFFFFF" />
+			</LinearLayout>
+			<LinearLayout
+				android:id="@+id/linear33"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:orientation="horizontal">
+				<LinearLayout
+					android:id="@+id/linear34"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:orientation="horizontal">
+					<TextView
+						android:id="@+id/textview7"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:padding="8dp"
+						android:text="Türkçe 🇹🇷"
+						android:textSize="12sp"
+						android:textStyle="bold"
+						android:textColor="#FFFFFF"
+						android:singleLine="true" />
+					<TextView
+						android:id="@+id/textview8"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:padding="8dp"
+						android:text="Çeviri:%100"
+						android:textSize="12sp"
+						android:textStyle="bold"
+						android:textColor="#FFFFFF"
+						android:singleLine="true" />
+				</LinearLayout>
+			</LinearLayout>
+			<LinearLayout
+				android:id="@+id/linear30"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:orientation="vertical">
+				<LinearLayout
+					android:id="@+id/linear32"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:orientation="horizontal">
+					<TextView
+						android:id="@+id/textview4"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:padding="8dp"
+						android:text="İnglizce 🇬🇧"
+						android:textSize="12sp"
+						android:textStyle="bold"
+						android:textColor="#FFFFFF"
+						android:singleLine="true" />
+					<TextView
+						android:id="@+id/textview5"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:padding="8dp"
+						android:text="Çeviri:%0"
+						android:textSize="12sp"
+						android:textStyle="bold"
+						android:textColor="#FFFFFF"
+						android:singleLine="true" />
+					<LinearLayout
+						android:id="@+id/linear37"
+						android:layout_width="wrap_content"
+						android:layout_height="match_parent"
+						android:padding="8dp"
+						android:orientation="vertical"
+						android:layout_weight="1" />
+				</LinearLayout>
+			</LinearLayout>
+			<TextView
+				android:id="@+id/textview9"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:gravity="center_horizontal|bottom"
+				android:text="Çeviriye Yardım mı etcen\? sunucumuza gel za"
+				android:textSize="12sp"
+				android:textStyle="bold"
+				android:textColor="#FFFFFF"
+				android:layout_gravity="center_horizontal|bottom" />
+		</LinearLayout>
+	</LinearLayout>
+</LinearLayout>

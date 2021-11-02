@@ -1,0 +1,84 @@
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+	<LinearLayout
+		android:id="@+id/linear1"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:padding="4dp"
+		android:background="#1A1A1A"
+		android:gravity="center_horizontal|center_vertical"
+		android:orientation="vertical">
+		<LinearLayout
+			android:id="@+id/card1"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_margin="4dp"
+			android:padding="10dp"
+			android:background="#000000"
+			android:orientation="vertical">
+			<LinearLayout
+				android:id="@+id/linear24"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:gravity="center_horizontal|top"
+				android:orientation="horizontal"
+				android:layout_gravity="center_horizontal|top">
+				<ImageView
+					android:id="@+id/imageview"
+					android:layout_width="100dp"
+					android:layout_height="100dp"
+					android:src="@drawable/g1625641109725h"
+					android:scaleType="fitXY"
+					android:layout_gravity="center_horizontal|top" />
+				<TextView
+					android:id="@+id/textview5"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:text="MARS"
+					android:textSize="40sp"
+					android:textStyle="bold"
+					android:textColor="#FFFFFF"
+					android:translationY="10.0dp" />
+			</LinearLayout>
+			<TextView
+				android:id="@+id/txt_card1_title"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:gravity="center_horizontal|center_vertical"
+				android:text="Hoşgeldiniz"
+				android:textSize="18sp"
+				android:textStyle="bold|italic"
+				android:textColor="#7289DA"
+				android:layout_gravity="center_horizontal|center_vertical" />
+			<TextView
+				android:id="@+id/txt_card1_desc"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:text="Mars Browser İ kullandığın için tşk ederim. (seni çok seviyorum)\n(づ ◕‿◕ )づ\n\nMars Browser diğer tarayıcılardan farklıdır ( yani ciddiyet veya resmiyet içermez)\n\n\n\nHAHA NEYSE GO BRR"
+				android:textSize="16sp"
+				android:textStyle="bold"
+				android:textColor="#FAFAFA" />
+			<Button
+				android:id="@+id/button1"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:background="#0D47A1"
+				android:gravity="center_horizontal|center_vertical"
+				android:text="haha Go brr"
+				android:textSize="12sp"
+				android:textStyle="bold"
+				android:textColor="#FFFFFF"
+				android:layout_gravity="center_horizontal|center_vertical" />
+		</LinearLayout>
+	</LinearLayout>
+</LinearLayout>

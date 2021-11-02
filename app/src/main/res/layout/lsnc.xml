@@ -1,0 +1,43 @@
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+	<LinearLayout
+		android:id="@+id/linear1"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:padding="8dp"
+		android:background="#4A148C"
+		android:orientation="vertical">
+		<LinearLayout
+			android:id="@+id/linear25"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:padding="8dp"
+			android:gravity="center_horizontal|center_vertical"
+			android:orientation="vertical"
+			android:layout_gravity="center_horizontal|center_vertical">
+			<LinearLayout
+				android:id="@+id/linear27"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:orientation="vertical">
+				<TextView
+					android:id="@+id/textview6"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:gravity="center_horizontal|bottom"
+					android:text="  DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE \n ​                    Version 2, December 2004 \n  \n ​ Copyright (C) 2017-2021 POKETALE STUDIOS \n  \n ​ Everyone is permitted to copy and distribute verbatim or modified \n ​ copies of this license document, and changing it is allowed as long \n ​ as the name is changed. \n  \n ​ DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE \n ​   TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION \n  \n ​  0. You just DO WHAT THE FUCK YOU WANT TO."
+					android:textSize="12sp"
+					android:textStyle="bold"
+					android:textColor="#FFFFFF"
+					android:layout_gravity="left|center_vertical" />
+			</LinearLayout>
+		</LinearLayout>
+	</LinearLayout>
+</LinearLayout>

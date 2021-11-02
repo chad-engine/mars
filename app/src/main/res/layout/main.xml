@@ -1,0 +1,186 @@
+<androidx.drawerlayout.widget.DrawerLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:id="@+id/_drawer"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	tools:openDrawer="start">
+	<androidx.coordinatorlayout.widget.CoordinatorLayout
+		android:id="@+id/_coordinator"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent">
+		<com.google.android.material.appbar.AppBarLayout
+			android:id="@+id/_app_bar"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:theme="@style/AppTheme.AppBarOverlay">
+			<androidx.appcompat.widget.Toolbar
+				android:id="@+id/_toolbar"
+				android:layout_width="match_parent"
+				android:layout_height="?attr/actionBarSize"
+				android:background="?attr/colorPrimary"
+				app:popupTheme="@style/AppTheme.PopupOverlay" />
+		</com.google.android.material.appbar.AppBarLayout>
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:orientation="vertical"
+			app:layout_behavior="@string/appbar_scrolling_view_behavior">
+			<LinearLayout
+				android:id="@+id/card1"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:padding="10dp"
+				android:background="#000000"
+				android:orientation="vertical"
+				android:layout_weight="8">
+				<LinearLayout
+					android:id="@+id/linear27"
+					android:layout_width="match_parent"
+					android:layout_height="10dp"
+					android:padding="8dp"
+					android:orientation="horizontal" />
+				<LinearLayout
+					android:id="@+id/linear29"
+					android:layout_width="match_parent"
+					android:layout_height="0dp"
+					android:padding="8dp"
+					android:orientation="horizontal" />
+				<LinearLayout
+					android:id="@+id/linear1"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:background="#1A1A1A"
+					android:gravity="center_horizontal|top"
+					android:orientation="horizontal"
+					android:layout_gravity="center_horizontal|top">
+					<ImageView
+						android:id="@+id/drawsafe"
+						android:layout_width="wrap_content"
+						android:layout_height="25dp"
+						android:src="@drawable/ic_https_white"
+						android:scaleType="center" />
+					<TextView
+						android:id="@+id/edittext1"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:gravity="center_horizontal|center_vertical"
+						android:text="TextView"
+						android:textSize="16sp"
+						android:textStyle="bold"
+						android:textColor="#FFFFFF"
+						android:singleLine="true"
+						android:layout_gravity="center_horizontal|center_vertical"
+						android:layout_weight="1" />
+					<ImageView
+						android:id="@+id/imageview10"
+						android:layout_width="wrap_content"
+						android:layout_height="25dp"
+						android:src="@drawable/ic_security_white"
+						android:scaleType="center" />
+					<ImageView
+						android:id="@+id/imageview9"
+						android:layout_width="wrap_content"
+						android:layout_height="25dp"
+						android:src="@drawable/ic_cloud_circle_white"
+						android:scaleType="center" />
+				</LinearLayout>
+				<LinearLayout
+					android:id="@+id/linear32"
+					android:layout_width="match_parent"
+					android:layout_height="10dp"
+					android:padding="8dp"
+					android:orientation="horizontal" />
+				<LinearLayout
+					android:id="@+id/linear31"
+					android:layout_width="match_parent"
+					android:layout_height="match_parent"
+					android:padding="5dp"
+					android:background="#2C2F33"
+					android:orientation="horizontal"
+					android:layout_weight="1">
+					<WebView
+						android:id="@+id/webview1"
+						android:layout_width="match_parent"
+						android:layout_height="match_parent"
+						android:background="@android:color/transparent"
+						android:layout_weight="1" />
+				</LinearLayout>
+				<LinearLayout
+					android:id="@+id/linear30"
+					android:layout_width="match_parent"
+					android:layout_height="10dp"
+					android:padding="8dp"
+					android:orientation="horizontal" />
+				<LinearLayout
+					android:id="@+id/linear26"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:background="#1A1A1A"
+					android:gravity="center_horizontal|top"
+					android:orientation="horizontal"
+					android:layout_gravity="center_horizontal|top">
+					<ImageView
+						android:id="@+id/pc_mod"
+						android:layout_width="25dp"
+						android:layout_height="wrap_content"
+						android:src="@drawable/desktop"
+						android:scaleType="center"
+						android:layout_weight="1" />
+					<ImageView
+						android:id="@+id/imageview4"
+						android:layout_width="25dp"
+						android:layout_height="wrap_content"
+						android:src="@drawable/code_white_48"
+						android:scaleType="centerInside"
+						android:layout_weight="1" />
+					<ImageView
+						android:id="@+id/drawhome"
+						android:layout_width="25dp"
+						android:layout_height="wrap_content"
+						android:src="@drawable/ic_home_white"
+						android:scaleType="center"
+						android:layout_weight="1" />
+					<ImageView
+						android:id="@+id/drawf5"
+						android:layout_width="25dp"
+						android:layout_height="wrap_content"
+						android:src="@drawable/ic_replay_white"
+						android:scaleType="center"
+						android:layout_weight="1" />
+					<ImageView
+						android:id="@+id/drawbrw"
+						android:layout_width="25dp"
+						android:layout_height="wrap_content"
+						android:src="@drawable/ic_launch_white"
+						android:scaleType="center"
+						android:layout_weight="1" />
+					<ImageView
+						android:id="@+id/drawnext"
+						android:layout_width="25dp"
+						android:layout_height="wrap_content"
+						android:src="@drawable/ic_arrow_forward_white"
+						android:scaleType="center"
+						android:layout_weight="1" />
+				</LinearLayout>
+				<LinearLayout
+					android:id="@+id/linear28"
+					android:layout_width="match_parent"
+					android:layout_height="10dp"
+					android:padding="8dp"
+					android:orientation="horizontal" />
+			</LinearLayout>
+		</LinearLayout>
+	</androidx.coordinatorlayout.widget.CoordinatorLayout>
+	<LinearLayout
+		android:id="@+id/_nav_view"
+		android:layout_width="320dp"
+		android:layout_height="match_parent"
+		android:layout_gravity="start"
+		android:background="#EEEEEE">
+		<include layout="@layout/_drawer_main" />
+	</LinearLayout>
+</androidx.drawerlayout.widget.DrawerLayout>

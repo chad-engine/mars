@@ -1,0 +1,140 @@
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+	<LinearLayout
+		android:id="@+id/linear1"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:padding="8dp"
+		android:background="#4A148C"
+		android:orientation="vertical">
+		<LinearLayout
+			android:id="@+id/linear25"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:padding="8dp"
+			android:gravity="center_horizontal|center_vertical"
+			android:orientation="vertical"
+			android:layout_gravity="center_horizontal|center_vertical">
+			<LinearLayout
+				android:id="@+id/card1"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:background="#AB47BC"
+				android:orientation="vertical">
+				<LinearLayout
+					android:id="@+id/linear24"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:gravity="center_horizontal|top"
+					android:orientation="horizontal"
+					android:layout_gravity="center_horizontal|top">
+					<ImageView
+						android:id="@+id/imageview"
+						android:layout_width="100dp"
+						android:layout_height="100dp"
+						android:src="@drawable/g1625641109725h"
+						android:scaleType="fitXY"
+						android:layout_gravity="center_horizontal|top" />
+					<TextView
+						android:id="@+id/textview5"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:padding="8dp"
+						android:text="MARS"
+						android:textSize="40sp"
+						android:textStyle="bold"
+						android:textColor="#FFFFFF"
+						android:translationY="10.0dp" />
+				</LinearLayout>
+				<LinearLayout
+					android:id="@+id/linear30"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:gravity="center_horizontal|center_vertical"
+					android:orientation="horizontal"
+					android:layout_gravity="center_horizontal|center_vertical">
+					<TextView
+						android:id="@+id/textview8"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:padding="8dp"
+						android:text="Buraya ne yazcam cidden bilmiom"
+						android:textSize="12sp"
+						android:textStyle="bold"
+						android:textColor="#FFFFFF"
+						android:layout_gravity="center_horizontal|center_vertical" />
+				</LinearLayout>
+				<TextView
+					android:id="@+id/textview6"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:gravity="center_horizontal|center_vertical"
+					android:text="Mars 10.1(10.1/101)\nChromium:97.0.4684.0\nFirefox:97.1.1 \nMarsUi 4\nChad 11_beta137_ananassuyu383"
+					android:textSize="12sp"
+					android:textStyle="bold"
+					android:textColor="#FFFFFF"
+					android:layout_gravity="center_horizontal|center_vertical" />
+				<LinearLayout
+					android:id="@+id/linear29"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:gravity="center_horizontal|center_vertical"
+					android:orientation="horizontal"
+					android:layout_gravity="center_horizontal|center_vertical">
+					<com.google.android.material.button.MaterialButton
+						android:id="@+id/materialbutton1"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:padding="8dp"
+						android:background="#AA00FF"
+						android:gravity="center_horizontal|center_vertical"
+						android:text="Lisans "
+						android:textSize="12sp"
+						android:textStyle="bold"
+						android:textColor="#FFFFFF"
+						android:textAppearance="@style/TextAppearance.MaterialComponents.Button"
+						app:cornerRadius="8dp"
+						style="@style/Widget.MaterialComponents.Button" />
+					<com.google.android.material.button.MaterialButton
+						android:id="@+id/materialbutton2"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:padding="8dp"
+						android:background="#AA00FF"
+						android:gravity="center_horizontal|center_vertical"
+						android:text="Kaynak Kodu"
+						android:textSize="12sp"
+						android:textStyle="bold"
+						android:textColor="#FFFFFF"
+						android:textAppearance="@style/TextAppearance.MaterialComponents.Button"
+						app:cornerRadius="8dp"
+						style="@style/Widget.MaterialComponents.Button" />
+					<com.google.android.material.button.MaterialButton
+						android:id="@+id/materialbutton3"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:padding="8dp"
+						android:background="#AA00FF"
+						android:gravity="center_horizontal|center_vertical"
+						android:text="Gizlilik şeysi"
+						android:textSize="12sp"
+						android:textStyle="bold"
+						android:textColor="#FFFFFF"
+						android:textAppearance="@style/TextAppearance.MaterialComponents.Button"
+						app:cornerRadius="8dp"
+						style="@style/Widget.MaterialComponents.Button" />
+				</LinearLayout>
+			</LinearLayout>
+		</LinearLayout>
+	</LinearLayout>
+</LinearLayout>
