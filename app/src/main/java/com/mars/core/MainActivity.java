@@ -1281,7 +1281,7 @@ webview1.getSettings().setAllowContentAccess(true);
 		
 		
 		
-		
+		//ananın amı hocam
 		drawf5.setVisibility(View.VISIBLE);
 		drawnext.setVisibility(View.VISIBLE);
 		linear26.setVisibility(View.VISIBLE);
