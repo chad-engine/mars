@@ -1170,7 +1170,7 @@ webview1.getSettings().setAllowContentAccess(true);
 			.setIntent(new android.content.Intent(android.app.DownloadManager.ACTION_VIEW_DOWNLOADS))
 			.build();
 			
-			// Create ShortcutInfo for camera
+			// Create ShortcutInfo for urmom
 			android.content.pm.ShortcutInfo cameraShortcut = new android.content.pm.ShortcutInfo.Builder(MainActivity.this, "id2")
 			.setShortLabel("Hava")
 			.setRank(1)
@@ -1315,7 +1315,7 @@ webview1.getSettings().setAllowContentAccess(true);
 		
 		
 		
-		
+		//burada ndn boşluk var lna
 		
 		android.graphics.drawable.GradientDrawable gd555 = new android.graphics.drawable.GradientDrawable();
 		gd555.setColor(Color.parseColor("#FF2C2F33"));
@@ -1419,7 +1419,7 @@ webview1.getSettings().setAllowContentAccess(true);
 	@Override
 	public void onBackPressed() {
 		if (webview1.canGoBack()) {
-			oto.edit().putString("kpn", webview1.getUrl()).commit();
+			oto.edit().putString("kpn", webview1.getUrl()).commit(); //kpn çok ii isim
 			webview1.goBack();
 			
 			setTitle((webview1.getTitle()));
@@ -1429,7 +1429,7 @@ webview1.getSettings().setAllowContentAccess(true);
 			com.google.android.material.snackbar.Snackbar.make(webview1, "kapatılor", com.google.android.material.snackbar.Snackbar.LENGTH_SHORT).setAction("", new View.OnClickListener(){
 				@Override
 							public void onClick(View _view) {
-									 
+									 //oha ney kim eeeeeee muz
 							}
 			}).show();
 			t = new TimerTask() {
@@ -1503,7 +1503,7 @@ webview1.getSettings().setAllowContentAccess(true);
 											}
 											else {
 												if (_search.equals("mars://relax")) {
-													
+
 													startActivity(be);
 												}
 												else {
@@ -2023,9 +2023,7 @@ prog.setBackgroundColor(Color.parseColor("#ffffff"));*/
 	
 	public void _onCreateContextMenu() {
 	}
-	// for Use addSourceDirectly
-	// onCreate with value
-	// "registerForContextMenu(your_webview_id);
+ 
 	 @Override
 	public void onCreateContextMenu(ContextMenu menu, View v, ContextMenu.ContextMenuInfo menuInfo)
 	{
@@ -2085,7 +2083,7 @@ prog.setBackgroundColor(Color.parseColor("#ffffff"));*/
 		};
 		
 		if (result.getType() == WebView.HitTestResult.IMAGE_TYPE || result.getType() == WebView.HitTestResult.SRC_IMAGE_ANCHOR_TYPE) {
-			
+			//anne ünlü oldum
 			
 			// Menu options for an image.
 			//set the header title to the image url
@@ -2281,3 +2279,7 @@ prog.setBackgroundColor(Color.parseColor("#ffffff"));*/
 		return getResources().getDisplayMetrics().heightPixels;
 	}
 }
+
+
+//dosya bitti lna
+//helal bana
