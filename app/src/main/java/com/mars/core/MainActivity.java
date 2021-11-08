@@ -1693,14 +1693,10 @@ webview1.getSettings().setAllowContentAccess(true);
 	
 	
 	public void _end() {
-		//Publics_name ashpottermars
-		//Bu Mars Browserdir. packegesi //com.marsbrowser.ashpotter.app;// dir. baska browserlere  //inanmayn.
+  		
+ 		
 		
-		//Bu Uygulama ash Potter Tarafından geliştirildi,apk editordan kodları çalmaya çalışıyorsaniz,telif haklari devreye girer.  hiç bir uygulamayi çalmayin,insanlar emek verip yapiyor.
-		
-		
-		//apk editor gibi uygulamalar ile logosu ve adi değiştirilerek uygulamanin "biz yaptik" diye paylaşılması yasaktr
-	}
+ 	}
 	
 	
 	public void _set_imeGo_Click(final TextView _edit, final View _view) {
@@ -2284,4 +2280,4 @@ prog.setBackgroundColor(Color.parseColor("#ffffff"));*/
 	public int getDisplayHeightPixels() {
 		return getResources().getDisplayMetrics().heightPixels;
 	}
-}
+}
