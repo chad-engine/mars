@@ -5,10 +5,12 @@
   </p>
   <p>MARS~</p>
   <p>Most pogger browser ever lul</p>
- <a href="https://play.google.com/store/apps/details?id=com.marsbrowser.ashpotter.app">install mars (turkish only,for now lul)</a>
- 
- 
  </div> 
+
+ # INSTALL
+ <a href="https://play.google.com/store/apps/details?id=com.marsbrowser.ashpotter.app">install mars (turkish only,for now lul) (gplay)</a><br>
+ <a href="https://github.com/chad-engine/mars/releases/download/10.1b4a/com.marsbrowser.ashpotter.app_106_10.1.apk">Install mars (apk)</a>
+ 
 
  
  
