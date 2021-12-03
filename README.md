@@ -9,7 +9,7 @@
 
  # INSTALL MARS LUL
  <a href="https://play.google.com/store/apps/details?id=com.marsbrowser.ashpotter.app">install mars (turkish only,for now lul) (gplay)</a><br>
- <a href="https://github.com/chad-engine/mars/releases/download/10.1b4a/com.marsbrowser.ashpotter.app_106_10.1.apk">Install mars (apk)</a>
+ <a href="https://github.com/chad-engine/mars/releases/tag/10.1">Install mars (apk)</a>
  
  # LISANCE N STUFF:
  <html>
