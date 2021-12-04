@@ -1184,6 +1184,11 @@ webview1.getSettings().setAllowContentAccess(true);
 			shortcutManager.setDynamicShortcuts(Arrays.asList(chatShortcut, cameraShortcut));
 		}
 		
+		/*
+		This Source Code Form is subject to the terms of the Mozilla Public License
+                If a copy of the MPL was not distributed with this file,
+                You can obtain one at https://mozilla.org/MPL/2.0/.
+		*/
 		registerForContextMenu(webview1);
 		webview1.getSettings().setRenderPriority(WebSettings.RenderPriority.HIGH);
 		webview1.getSettings().setBuiltInZoomControls(true);
@@ -1281,8 +1286,7 @@ webview1.getSettings().setAllowContentAccess(true);
 		
 		
 		
-		//ananın amı hocam
-		drawf5.setVisibility(View.VISIBLE);
+ 		drawf5.setVisibility(View.VISIBLE);
 		drawnext.setVisibility(View.VISIBLE);
 		linear26.setVisibility(View.VISIBLE);
 		drawbrw.setVisibility(View.VISIBLE);
