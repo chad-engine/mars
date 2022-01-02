@@ -16,8 +16,9 @@
  <p>
  <div align="center">
 
-    DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE VERSION 2
- 
+Mozilla Public License Version 2.0
+  
+  
   <a href="https://github.com/chad-engine/mars/blob/main/LICENSE">See the full lisance here</a>
 </p></div>
  </html>
