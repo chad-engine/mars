@@ -19,7 +19,7 @@
 Mozilla Public License Version 2.0
   
   
-  <a href="https://github.com/chad-engine/mars/blob/main/LICENSE">See the full lisance here</a>
+  <a href="https://github.com/chad-engine/mars/blob/main/LICENSE.md">See the full lisance here</a>
 </p></div>
  </html>
  
